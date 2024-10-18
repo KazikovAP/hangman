@@ -1,12 +1,14 @@
 package main
 
 import (
-	"hangman/config"
-	"hangman/internal/application"
-	"hangman/internal/domain"
-	"hangman/internal/infrastructure"
 	"log/slog"
 	"os"
+
+	"github.com/KazikovAP/hangman/internal/application"
+	"github.com/KazikovAP/hangman/internal/domain"
+	"github.com/KazikovAP/hangman/internal/infrastructure"
+
+	"github.com/KazikovAP/hangman/config"
 )
 
 func main() {

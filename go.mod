@@ -1,4 +1,4 @@
-module hangman
+module github.com/KazikovAP/hangman
 
 go 1.23.0
 

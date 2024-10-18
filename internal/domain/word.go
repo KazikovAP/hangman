@@ -2,8 +2,9 @@ package domain
 
 import (
 	"crypto/rand"
-	"hangman/config"
 	"math/big"
+
+	"github.com/KazikovAP/hangman/config"
 )
 
 type Word struct {

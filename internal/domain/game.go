@@ -3,6 +3,8 @@ package domain
 import (
 	"fmt"
 	"strings"
+
+	"github.com/KazikovAP/hangman/internal/errors"
 )
 
 type Game struct {
@@ -75,7 +77,7 @@ func (g *Game) IsUserLost() bool {
 
 func (g *Game) SetWord() {
 	if err := g.Word.SetRandomWord(); err != nil {
-		fmt.Printf("Ошибка при установке случайного слова: %v", err)
+		fmt.Println(errors.SetWordError{Err: err})
 		return
 	}
 }

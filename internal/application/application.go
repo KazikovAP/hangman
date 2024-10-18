@@ -1,10 +1,11 @@
 package application
 
 import (
-	"hangman/internal/domain"
-	"hangman/internal/infrastructure"
 	"strings"
 	"unicode"
+
+	"github.com/KazikovAP/hangman/internal/domain"
+	"github.com/KazikovAP/hangman/internal/infrastructure"
 )
 
 const (
